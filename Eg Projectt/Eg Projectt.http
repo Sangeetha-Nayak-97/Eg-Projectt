@@ -1,0 +1,11 @@
+@Eg_Projectt_HostAddress = http://localhost:8080
+
+GET {{Eg_Projectt_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Eg_Projectt_HostAddress}}/todos/1
+Accept: application/json
+
+###
